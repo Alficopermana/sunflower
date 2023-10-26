@@ -363,6 +363,9 @@ nav a:hover {
   background-color: darkorange; /* Menyesuaikan warna saat tombol dihover */
 }
 
+footer #footer .disqus-footer__wrapper disqus-footer__wrapper--refresh{
+  display: none;
+}
 /* CONTACT FOOTER */ /* CONTACT FOOTER */ /* CONTACT FOOTER */ /* CONTACT FOOTER */ /* CONTACT FOOTER */
 
 .contact {
