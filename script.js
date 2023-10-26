@@ -74,7 +74,7 @@ function displayComments() {
   var commentsList = document.getElementById('commentsList');
   commentsList.innerHTML = '';
 
-  for (var i = 0; i < comments.length && i < 15; i++) {
+  for (var i = 0; i < comments.length && i < 100; i++) {
       var comment = comments[i];
       var commentElement = document.createElement('div');
       commentElement.classList.add('comment');
