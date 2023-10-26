@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-\width, initial-scale=1" />
+    <title>Dear Anggi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- connect to Fontawesome -->
+    <script src="https://kit.fontawesome.com/e20cff64ff.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </head>
+
+  <body>
+    <!-- HOME SECTION -->    <!-- HOME SECTION -->    <!-- HOME SECTION -->
+    <div class="home" id="HOME"> 
+      <video autoplay loop muted plays-inline class="back-video">
+        <source src="Assets/BGVideo.mp4" type="video/mp4">
+      </video>
+      <nav>
+        <div class="logo"><a href="#HOME">Happy Birthday~</a></div>
+        <ul>
+          <!-- <li><a href="#HOME">Home</a></li> -->
+          <li><a href="#WISH">Wish</a></li>
+          <li><a href="#MOMENTS">Moments</a></li>
+          <li><a href="#MESSAGE">Message</a></li>
+        </ul>
+      </nav>
+      <div class="home-content">
+        <div class="text-one">Hello!</div>
+        <div class="text-two">My Prami Dewanggi</div>
+        <div class="text-three">Today is 27 October 2023</div>
+        <div class="text-four">It's your Birthday!</div>
+        <div class="button">
+          <a href="#"><button class="confetti-buton">Try this button</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- WISH SECTION -->    <!-- WISH SECTION -->    <!-- WISH SECTION -->
+    <div class="row" id="WISH">
+      <h1>Best Wishes for You</h1>
+      <div class="col">
+        <div class="card card1">
+          <h5>Always Happy</h5>
+          <p>Hope u always as bright as sunflower~</p>
+        </div>
+        <div class="card card2">
+          <h5>Keep Healthy</h5>
+          <p>Hope u always healthy, but eat some vegetable please!</p>
+        </div>
+        <div class="card card3">
+          <h5>Beautiful Always</h5>
+          <p>No comment, u always beautiful</p>
+        </div>
+        <div class="card card4">
+          <h5>Strong Women</h5>
+          <p>Hope u always grow and achive all your dreams</p>
+        </div>
+        <div class="card card5">
+          <h5>Be Mine Always</h5>
+          <p>I mean mine for fico</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- MOMENTS SECTION -->    <!-- MOMENTS SECTION -->    <!-- MOMENTS SECTION -->
+    <div class="container" id="MOMENTS"> 
+      <div id="slide">
+          <div class="item" style="background-image: url(Assets/Moments6.jpg);">
+              <div class="content">
+                  <div class="name">Now</div>
+                  <div class="des">Serius disini kamu cantik banget</div>
+              </div>
+          </div>
+          <div class="item" style="background-image: url(Assets/Moments1.jpg);">
+              <div class="content">
+                  <div class="name">Baby</div>
+                  <div class="des">Senyum dong dek</div>
+              </div>
+          </div>
+          <div class="item" style="background-image: url(Assets/Moments2.jpg);">
+              <div class="content">
+                  <div class="name">Elementary School</div>
+                  <div class="des">Alay banget nih</div>
+              </div>
+          </div>
+          <div class="item" style="background-image: url(Assets/Moments3.jpg);">
+              <div class="content">
+                  <div class="name">Junior High School</div>
+                  <div class="des">Mulai keliatan pubernya nih</div>
+              </div>
+          </div>
+          <div class="item" style="background-image: url(Assets/Moments4.jpg);">
+              <div class="content">
+                  <div class="name">Senior High School</div>
+                  <div class="des">Keliatan nih bakal jadi cecan</div>
+              </div>
+          </div>
+          <div class="item" style="background-image: url(Assets/Moments5.jpg);">
+              <div class="content">
+                  <div class="name">College</div>
+                  <div class="des">Tuh kan bener cantik</div>
+              </div>
+          </div>
+      </div>
+      <div class="buttons">
+        <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+        <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+      </div>
+    </div>
+<!-- COMMENT SECTION -->     <!-- COMMENT SECTION -->     <!-- COMMENT SECTION -->
+    <div class="comment-sect" id="MESSAGE">
+      <h2>Messages from everyone</h2>
+      <div id="commentsList"></div>
+      <form id="commentForm">
+        <input type="text" id="nameInput" placeholder="Your Name">
+        <input type="text" id="commentInput" placeholder="Enter your message here">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+<!-- CONTACT SECTION --> <!-- CONTACT SECTION --> <!-- CONTACT SECTION --> 
+      <footer class="contact" id="contact">
+        <div class="content">
+          <div class="logo">formygf by alficopermana</div>
+          <div class="contact-details">
+            <a href="https://www.instagram.com/alficopermana/" target="_blank"><i class="fa-brands fa-instagram"></i> </a>
+            <a href="https://wa.me/6282298381307" target="_blank"><i class="fa-brands fa-whatsapp"></i> </a>
+            <a href="mailto:alficopermana21@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> </a>
+          </div>
+          <span>Created By Alfico Permana Putra Darwis | &#169; 2023 All Rights Reserved</span>
+        </div>
+      </footer>
+
+    <script src="script.js"></script> 
+  </body>
+</html>
